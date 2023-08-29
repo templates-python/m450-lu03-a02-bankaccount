@@ -1,0 +1,24 @@
+{
+  "tests": [
+    {
+      "name": "money less than saldo",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_get_money_less_than_saldo_returns_expected_money\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    },
+    {
+      "name": "money more than saldo",
+      "setup": "sudo -H pip3 install -r requirements.txt",
+      "run": "pytest -k \"test_get_money_with_more_than_saldo_returns_nothing\"",
+      "input": "",
+      "output": "",
+      "comparison": "included",
+      "timeout": 10,
+      "points": 1
+    }
+  ]
+}
