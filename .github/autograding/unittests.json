@@ -1,0 +1,14 @@
+[
+  {
+    "name": "test_get_money_less_than_saldo_returns_expected_money",
+    "function": "test_get_money_less_than_saldo_returns_expected_money",
+    "timeout": 10,
+    "points": 1
+  },
+  {
+    "name": "test_get_money_with_more_than_saldo_returns_nothing",
+    "function": "test_get_money_with_more_than_saldo_returns_nothing",
+    "timeout": 10,
+    "points": 1
+  }
+]
