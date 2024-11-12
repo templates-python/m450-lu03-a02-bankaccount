@@ -6,19 +6,19 @@ class BankAccount:
     """
     a bank account
     """
-    balance: float
+    Balance: float
 
     def get_money(self, value):
-        if value < self.balance:
-            self.balance -= value
+        if value < self.Balance:
+            self.Balance -= value
             return value
         else:
             return 0
 
     @property
-    def balance(self):
+    def Balance(self):
         return self._balance
 
-    @balance.setter
+    @Balance.setter
     def balance(self, value):
         self._balance = value
